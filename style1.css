@@ -1,0 +1,54 @@
+.what{
+    background-color: #dbd4e0;
+    padding: 30px;
+   
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 400px;  margin-right: 400px;
+   
+  }
+  .what h1{
+    color: rgba(6, 163, 14, 0.705);
+   
+  }
+  .popup{
+    width: 400px;
+    border-radius:6px ;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0px 30px 30px;
+    background-color: #9c4d4d;
+    
+
+ }
+ 
+ .ppage p{
+ color: #000000;
+ font-weight: 300;
+ font-size: 20px;
+  }
+ .ppage h2{
+ 
+ color: rgb(97, 2, 2);
+ }
+ .ppage button{
+  background-color: coral;
+  border-radius: 6px;
+  padding: 0px 20px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+ }
+ .open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+  }
+ .popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0px 10px;
+ }

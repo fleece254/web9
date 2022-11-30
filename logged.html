@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <br><br>
+
+    <div class="ppage">
+
+        <div class="popup" id="popup">
+        <h2>Worning!!!</h2>
+        <p>Please stop playing with kelvin, pay him his money.</p>
+        <button onclick="closePopup()"> OK</button>
+      </div>
+      </div>
+ 
+   
+
+   <div class="what">
+    <h1>Acount Was successifully created</h1><br>
+
+     <h2> Please wait for admin to precess your request to join.</h2>   <br><br>
+     <h3> This may take an hour or two</h3>
+    
+   </div>
+   <script>
+    let popup=document.getElementById("popup");
+    
+    function openPopup(){
+  popup.classList.add("open-popup");
+    }
+    function closePopup(){
+  popup.classList.remove("open-popup");
+    }
+
+  </script>
+</body>
+</html>

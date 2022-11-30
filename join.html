@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The horsemen</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+    
+          <nav>
+            <ul>
+              <li class="current"><a href="mksu horsemen.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="join.html">join</a></li>
+              <li><a href="contact.html">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <br>
+<div class="container2">
+  <div class ="register">
+    <form id="form1" style="text-align:center;">
+  
+       
+       
+      <h2 style="background-color:transparent ;text-align: center; color: rgb(21, 128, 11); font-size: 30px;">Do you want join from this Group?</h2>
+      <h3 style="font-size:20px; color: rgb(43, 15, 143);">Please fill this form</h3>
+  
+  
+  
+      <input id="input1" type="text" Name="Firstname" placeholder="First Name" style="background-color:white;font-size: medium;"><br><BR>
+      <input id="input1"  type="text" Name="lastname" placeholder="Second Name" style="background-color:white;font-size: medium;"><br><br>
+      <label>Date of birth .</label>
+      <input type="date" Name="dob" placeholder="Date of birth" style="background-color:white;font-size: medium;"><br><br>
+      <input type="number" Name="phone" placeholder="Phone Number" style="background-color:white;font-size: medium;"><br><br>
+      <input type="email" Name="email" placeholder="Email Adress" style="background-color:white;font-size: medium;"><br><br>
+      <input type="text" Name="yos" placeholder="Istitution" style="background-color:white;font-size: medium;"><BR><br>
+      <input type="text" Name="yos" placeholder="Year of study" style="background-color:white;font-size: medium;"><BR><br>
+    <input type="text" Name="profesional" placeholder="Professional" style="background-color:white;font-size: medium;"><br><br>
+    <label>Please Upload a supportive document to show that you are a student</label></button><br>
+  <input type="file" placeholder="Creat acount"   style="background-color:rgb(105, 142, 184);font-size:auto;"><BR><BR>
+  <br><br>
+  </form>
+  
+  </div>
+    
+  
+  <br>
+ 
+  
+  <div class="login">
+      <form  style="text-align: center; ">
+          <br>
+           <h2 style="background-color:transparent ; color: blue;">Creat Account</h2>
+           <input type="text" Name="Username" placeholder="Username" style="background-color:white;font-size: medium;"><br><br>
+           <input type="Email" Name="email" placeholder="Email Adress" style="background-color:white;font-size: medium;"><br><br>
+           <input type="password" Name="pass" placeholder="Creat Password" style="background-color:white;font-size: medium;"><br><br>
+           <input type="password" Name="cpass" placeholder="Confirm Password" style="background-color:white;font-size: medium;"><br><br>
+          
+      </form>
+      <button  type="submit" onclick="openPopup()" class="btn">Finish</button><br><br><br>
+       
+  </div>
+
+</div>
+
+
+<footer><br>
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src="https://th.bing.com/th/id/R.b90bce5c45bd3ae76c170dc0dee285a8?rik=3b76xY6jSr5UQg&pid=ImgRaw&r=0">
+        <h3>Android and IOS Development </h3>
+        <p>We develop any kind of Mobile Application that is compactible with both Android and IOS operatung systems.These apps can work both online or ofline drpending on the user interest</p>
+      </div>
+      <div class="box">
+        <img src="https://th.bing.com/th/id/R.8841e1a93f6ee6dbebdd76fb7c2c5281?rik=JYC2EZcWIM6fIA&pid=ImgRaw&r=0">
+        <h3>Web developement</h3>
+        <p>. We develop a nice and actractive websites with proper user interface. </p>
+      </div>
+      <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.lxaVP9-GTQ30R_nxMtKNsgHaF5?pid=ImgDet&rs=1">
+        <h3>Any Other Software</h3>
+        <p>learn how yo make money while yor still young and become am millionaire...set up your family as well.</p>
+      </div><br>
+        </section>
+</footer>
+<br><br>
+
+<div class="ppage">
+
+  <div class="popup" id="popup">
+  <h2>Thank you</h2>
+  <p>Your details has been successifully submited.</p>
+  <button onclick="closePopup()"> OK</button>
+</div>
+</div>
+<script>
+  let popup=document.getElementById("popup");
+  
+  function openPopup(){
+popup.classList.add("open-popup");
+  }
+  function closePopup(){
+    
+popup.classList.remove("open-popup");
+  }
+</script>
+</body>
+</html>
